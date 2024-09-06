@@ -1,0 +1,108 @@
+{
+  "insertId": "ilw0m1ldhmx2m3nt",
+  "jsonPayload": {
+    "request": {
+      "UserId": "",
+      "UserName": "",
+      "WmsCustomerId": "",
+      "Items": [
+        {
+          "RecipientDistrict": "CILEUNGSI",
+          "ZoneId": "",
+          "TotalWeight": 0,
+          "RecipientName": "Astrid Widia Kusuma",
+          "Voucher": 0,
+          "Courier": "ID Express",
+          "DocNo": "",
+          "ZoneName": "",
+          "ExpressType": "",
+          "RecipientId": "",
+          "CourierId": "",
+          "PaymentType": "",
+          "OrderType": "B2C",
+          "WmsCustomerId": "TNT01",
+          "WmsOrderNo": "",
+          "DropshipperName": "",
+          "RecipientPhoneNumber": "6281212128728",
+          "SortingCode": "\"orderNo\":\"ID2496919468315\"",
+          "IsBundle": "",
+          "OrderNumber": "240830M5GJ0869",
+          "WarehouseName": "Warehouse IDCommerce Jakarta",
+          "RecipientCity": "KAB. BOGOR",
+          "WarehouseId": "ID_IDCOMGW004",
+          "RecipientZipCode": "16820",
+          "RecipientAddress": "Perumahan Cileungsi Hijau, Jalan Meranti I Blok N1, Cileungsi Kidul, Cileungsi (No. 39, RT 04/14), KAB. BOGOR, CILEUNGSI, JAWA BARAT, ID, 16820",
+          "OrderSource": "SHPE",
+          "ShopId": 339,
+          "UserName": "Beauty",
+          "VipUsername": "",
+          "CODAmount": 0,
+          "OrderDate": "2024-08-30 04:58:39",
+          "BuyerServiceFee": 562,
+          "Tax": 0,
+          "IsForceUpdate": false,
+          "ShopType": "",
+          "Id": 0,
+          "RecipientProvince": "JAWA BARAT",
+          "TotalAmount": 0,
+          "ShippingCost": 9000,
+          "OrderBundle": "",
+          "RefundValue": 0,
+          "Insurance": "",
+          "Details": [
+            {
+              "Id": 0,
+              "DiscountedPrice": 12900,
+              "Qty": 2,
+              "ParentID": 0,
+              "Weight": 0,
+              "IsBundle": 0,
+              "BasePrice": 55000,
+              "ProductName": "Dahlia Air Freshener Matic Refill Teh Keraton | Cendana 225ml | TnT Beauty Shop - Teh Keraton 200ml",
+              "Sku": "8886012207154",
+              "DocNo": "",
+              "Subtotal": 25800,
+              "IsShortage": "",
+              "RealSku": ""
+            }
+          ],
+          "SellerServiceFee": 0,
+          "UserId": "218",
+          "WaybillNo": "{\"waybillNo\":\"IDS9000673188115\"",
+          "InsuranceFee": 0,
+          "IsCOD": "0",
+          "DiscountAmount": 84200,
+          "Status": "",
+          "ShopName": "TnT Beauty Shop"
+        }
+      ],
+      "Total": 1
+    },
+    "ts": "2024-09-01T14:24:37.728470903Z",
+    "sales_order:endpoint:bulk_create": "start"
+  },
+  "resource": {
+    "type": "k8s_container",
+    "labels": {
+      "cluster_name": "gke-endor-prd",
+      "project_id": "gpn-endor-prd",
+      "pod_name": "galadriel-59cc476f85-7gndf",
+      "container_name": "galadriel",
+      "location": "asia-southeast2",
+      "namespace_name": "default"
+    }
+  },
+  "timestamp": "2024-09-01T14:24:37.728618072Z",
+  "severity": "INFO",
+  "labels": {
+    "k8s-pod/security_istio_io/tlsMode": "istio",
+    "compute.googleapis.com/resource_name": "gke-gke-endor-prd-app-fb00-abe47d4d-cpwx",
+    "k8s-pod/service": "galadriel-svc",
+    "k8s-pod/pod-template-hash": "59cc476f85",
+    "k8s-pod/service_istio_io/canonical-revision": "latest",
+    "k8s-pod/service_istio_io/canonical-name": "galadriel",
+    "k8s-pod/app": "galadriel"
+  },
+  "logName": "projects/gpn-endor-prd/logs/stdout",
+  "receiveTimestamp": "2024-09-01T14:24:38.629239129Z"
+}
